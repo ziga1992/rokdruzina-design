@@ -1,4 +1,51 @@
-body {
-    max-width: 1024px;
-    background: black;
+@font-face {
+    font-family: Gotham-Medium;
+    src: url("../fonts/Gotham-Medium.otf")
+}
+
+@font-face {
+    font-family: Gotham-Thin;
+    src: url("../fonts/Gotham-Thin.otf")
+}
+
+html {
+    background: url("../img/background.png") white no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+nav {
+    font-family: Gotham-Medium;
+    position: absolute;
+    top: 101px;
+    left: 150px;
+    font-size: 2.5em;
+    text-align: right;
+    color: white;
+    cursor: pointer;
+}
+
+nav div:hover {
+    color: #1ABC9C;
+}
+
+nav span {
+    font-weight: 100;
+    font-family: Gotham-Thin;
+    color: white;
+}
+
+
+.heading {
+    font-family: Gotham-Medium;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 95px;
+    font-size: 5em;
+    cursor: default;
+}
+
+.heading span {
+    color: #1ABC9C;
 }
