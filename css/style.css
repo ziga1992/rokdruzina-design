@@ -9,20 +9,23 @@
 }
 
 html {
-    background: url("../img/background.png") white no-repeat;
-    background-size: cover;
     font-size: 16px;
 }
 
 nav {
     font-family: Gotham-Medium;
-    position: absolute;
-    top: 101px;
-    left: 150px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 30.9%;
+    background: black;
     font-size: 2.5em;
     text-align: right;
     color: white;
     cursor: pointer;
+    padding-top: 5.98%;
+    padding-right: 5%;
 }
 
 nav div:hover {
@@ -35,6 +38,14 @@ nav span {
     color: white;
 }
 
+.background {
+    width: 69.1%;
+    height: 100%;
+    background: url("../img/background2.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+}
 
 .heading {
     font-family: Gotham-Medium;
@@ -44,6 +55,7 @@ nav span {
     right: 95px;
     font-size: 5em;
     cursor: default;
+    -webkit-text-stroke: 1px black;
 }
 
 .heading span {
